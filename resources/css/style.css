@@ -96,13 +96,14 @@ header {
   padding: 16px 10vw 16px 16px;
   border-radius: 8px;
   outline: none;
-  border: 1px solid grey;
+  border: 2px solid grey;
   transition: outline 0.2s;
 }
 .main-hero input:focus {
   padding: 16px 10vw 16px 16px;
   border-radius: 8px;
-  outline: 2px solid rgba(11, 190, 242, 0.5);
+  outline: none;
+  border: 2px solid rgba(11, 190, 242, 0.5);
 }
 .main-hero button {
   padding: 16px 1.8vw;
