@@ -74,7 +74,7 @@ header {
   padding: 12px 18px;
   border-radius: 8px;
   border: 1px solid transparent;
-  transition: background-color 0.2s;
+  transition: background-color 0.5s;
 }
 .main-nav .nav-btn:hover,
 .main-nav .nav-btn:active {
@@ -113,7 +113,7 @@ header {
   border: 1px solid rgba(11, 190, 242, 1);
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: background-color 0.5s;
 }
 .main-hero button:hover {
   background-color: transparent;
