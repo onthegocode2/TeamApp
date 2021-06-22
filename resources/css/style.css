@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 300%;
+    font-weight: 700;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    margin: 0;
+    max-width: 45vw;
+    
+}
+p {
+    font-size: 100%;
+    word-spacing: 4px;
+    letter-spacing: 0.5px;
+    margin-bottom: 60px;
+    max-width: 35vw;
+}
+header {
+    background-image: url(img/background.jpg);
+    position: cover;
+    height: 100vh;
+}
+.main-container{
+    padding: 0 30px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top: 40px;
+}
+.logo {
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+}
+.main-nav li {
+    float: left;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    margin-left: 35px;
+    color: rgba(245, 247, 250, 1);
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 10px;
+    transition: border-bottom 0.2s, font-size 0.2s; 
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+    text-decoration: none;
+    margin-left: 35px;
+    color: rgba(245, 247, 250, 1);
+    font-size: 90%;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    font-size: 100%;
+
+}
+.main-nav .nav-btn:link,
+.main-nav .nav-btn:visited {
+    background-color: rgba(11, 190, 242, 0.5);
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: background-color 0.2s;
+
+
+}
+.main-nav .nav-btn:hover,
+.main-nav .nav-btn:active {
+    background-color: transparent;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 90%;
+    border: 1px solid rgba(11, 190, 242, 0.5);
+
+}
+.main-hero {
+    position: absolute;
+    transform: translateY(26vh);
+    color: white;
+}
+.main-hero h1 {
+    padding-bottom: 30px;
+}
+.main-hero input {
+    padding: 16px 10vw 16px 16px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+.main-hero button {
+    padding: 16px 1.8vw;
+    margin-left: 10px;
+    background-color: rgba(11, 190, 242, 1);
+    color:white;
+    border: 1px solid rgba(11, 190, 242, 1);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.main-hero button:hover {
+    background-color:transparent;
+}
